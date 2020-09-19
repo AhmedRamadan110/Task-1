@@ -1,0 +1,358 @@
+/* Global Codes */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #cacaca;
+}
+
+.container {
+	width: 1200px;
+	margin: auto;
+}
+
+/* NavBar*/
+
+.nav {
+	overflow: hidden;
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+}
+
+.nav .brand {
+	float: left;
+	width:60%;
+	margin-top: 22px;
+}
+
+.nav .brand a:hover {color: #FFF;}
+
+.nav .list {
+	float: left;
+	width: 40%;
+}
+
+.nav .list li {
+    display: inline-block;
+    padding: 24px 12px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 25px;
+}
+
+.nav .list li a:hover {color: #FFF;}
+
+/* Header */
+
+.header {
+	position: relative;
+	background-image: url(How-to-be-an-Assertive-Woman-at-Work.jpg);
+	background-size: cover;
+	height: 650px;
+	position: relative;
+}
+
+.header .overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	padding: 220px;
+}
+
+.header .overlay h1 {
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 44px;
+}
+
+.header .overlay .orange {
+    border: 1px solid #f4623a;
+    background-color: #f4623a;
+    display: inline-block;
+    width: 65px;
+    height: 4px;
+    margin: 20px 0;
+}
+
+.header .overlay p {
+	color: #ababab;
+	font-size: 18px;
+}
+
+.header .overlay button {
+	width: 200px;
+    height: 62px;
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 17px;
+    background-color: #f4623a;
+    color: #FFF;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.header .overlay button:hover {background-color: #ff3c07;}
+
+.about {
+	height: 450px;
+	background-color: #f4623a;
+	text-align: center;
+	padding: 90px;
+}
+
+.about h1 {
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 44px;
+}
+
+.about .white {
+	border: 1px solid #FFF;
+    background-color: #FFF;
+    display: inline-block;
+    width: 65px;
+    height: 4px;
+    margin: 20px 0;
+}
+
+.about p {
+	color: rgba(255,255,255,.5);
+	font-size: 18px;
+}
+
+.about button {
+	width: 160px;
+    height: 62px;
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #FFF;
+    color: #383838;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.about button:hover {background-color: #e5e5e5;}
+
+/* Services */
+
+.services .serv {
+	text-align: center;
+	padding-top: 150px;
+}
+
+.services .serv h1 {
+	font-weight: bolder;
+	font-size: 44px;
+	color: #2e2e2e;
+}
+
+.services .orange {
+	border: 1px solid #f4623a;
+    background-color: #f4623a;
+    display: inline-block;
+    width: 65px;
+    height: 4px;
+    margin: 20px 0;
+}
+
+.services li {
+	display: inline-block;
+	width: 24%;
+	text-align: center;
+	padding: 40px 0 120px 0;
+}
+
+.services i {
+	font-size: 80px;
+	padding-bottom: 20px;
+	color: #f4623a;
+}
+
+.services h1 {
+	color: #2e2e2e;
+	padding-bottom: 10px;
+}
+
+.services p {
+	color: #6c757d;
+	font-size: 20px
+}
+
+/* Portfolio */
+
+.portfolio {
+	overflow: hidden;
+}
+
+.portfolio div {
+	width: 33.3%;
+	float: left;
+	position: relative;
+}
+
+.portfolio .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(244,98,58,0.9);
+	display: none;
+}
+
+.portfolio div:hover .overlay {
+	display: block;
+	cursor: pointer;
+}
+
+.portfolio .overlay span {
+	text-transform: uppercase;
+	color: #d4d1d1;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio .overlay h2 {
+	color: #FFF;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.portfolio img {
+	float: left;
+	width: 100%;
+	height: 260px;
+}
+
+.portfolio-x {
+	text-align: center;
+    background-color: #343a40;
+    height: 400px;
+    padding-top: 130px;
+}
+
+.portfolio-x h1 {
+	color: #FFF;
+	font-weight: bolder;
+	font-size: 44px;
+}
+
+.portfolio-x button {
+	width: 210px;
+    height: 62px;
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #FFF;
+    color: #383838;
+    border: none;
+    border-radius: 29px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.portfolio-x button:hover {background-color: #e5e5e5}
+
+/* Contact */
+
+.contact {
+	text-align: center;
+	padding-top: 130px;
+	height: 550px;
+}
+
+.contact h1 {
+	color: #2e2e2e;
+	font-weight: bolder;
+	font-size: 44px;
+}
+
+.contact .orange {
+	border: 1px solid #f4623a;
+    background-color: #f4623a;
+    display: inline-block;
+    width: 65px;
+    height: 4px;
+    margin: 20px 0;
+}
+
+.contact p {
+	color: #6c757d;
+	font-size: 20px;
+	margin-bottom: 60px;
+}
+
+.icons {
+	text-align: center;
+	overflow: hidden;
+}
+
+.icons .icon1 {margin-left: 200px;}
+
+.icons div {
+	float: left;
+	width: 33.3%;
+}
+
+.icons i {
+	font-size: 60px;
+	color: #6c757d;
+}
+
+.icons span {
+	display: block;
+	padding-top: 10px;
+	font-size: 20px;
+	color: #3a3a3a;
+}
+
+.icons .x-tool {
+	text-decoration: none;
+	color: #f4623a;
+	display: block;
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.icons .x-tool:hover {text-decoration: underline;}
+
+footer {
+	background-color: #f9f9f9;
+	height: 125px;
+}
+
+footer p {
+	text-align: center;
+	padding-top: 52.5px;
+	color: rgb(108, 117, 125);
+}
